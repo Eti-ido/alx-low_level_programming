@@ -4,9 +4,7 @@
 
 /**
  * main - Entry point
- *
  * Description - assigns a random number to the variable
- *
  * Result - Always 0 (Success)
  */
 
