@@ -14,7 +14,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf("n: ");
+	printf("Enter the number:");
 	scanf("%d", &n);
 	if (n > 0)
 	{
