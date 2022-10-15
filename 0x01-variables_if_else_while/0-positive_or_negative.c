@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * Description - assigns a random number to the variable
- * Result - Always 0 (Success)
+ *main - Entry point
+ *Description - assigns a random number to the variable
+ *Return: Always 0 (Success)
  */
 
 int main(void)
