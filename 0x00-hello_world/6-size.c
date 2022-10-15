@@ -1,13 +1,12 @@
 #include <unistd.h>
 
 /**
- * main - Entry point
- *
- * Result - Always 0 (Success)
+ *main - Entry point
+ *Description - "prints the size of various types"
+ *Return: Always 0 (Success)
  */
 
 int main(void)
-	/* prints the size of various types */
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
 	printf("Size of an int: %d byte(s)\n", sizeof(int));
