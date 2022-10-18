@@ -16,6 +16,14 @@ int _abs(int c)
 
 		return (abs_val);
 	}
+	else if (c > 0)
+	{
+		int abs_val1;
+
+		abs_val1 = c;
+
+		return (abs_val1);
+	}
 
 	return (0);
 }
