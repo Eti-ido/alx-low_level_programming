@@ -1,6 +1,2 @@
-#ifndef main_h_included
-#define main_h_included
-
 int _putchar(char c);
-
-#endif
+void print_alphabet_x10(void);
