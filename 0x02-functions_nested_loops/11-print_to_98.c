@@ -3,17 +3,23 @@
 
 /**
  * print_to_98 - prints all natural numbers from n to 98
- * @n: The character to be computed
+ * @n: The number to starting from to 98
  *
  * Return: void
  */
 void print_to_98(int n)
 {
-	while (n <= 98)
+	if (n < 98)
 	{
-		_putchar((n % 10) + '0');
-		_putchar(',');
-		_putchar(' ');
+		for (n = 0; n < 98; n++)
+		{
+			printf("%d, ", n);
+			printf("%d\n", 98);
+		}
+	else
+	{
+		for (n = 0; n > 98; n--)
+			printf("%d, ", n)
+			printf("%d\n", 98)
 	}
-	n++;
 }
