@@ -12,13 +12,13 @@ int main(void)
 	a = sum = 0;
 	b = 1;
 
-	for (numb = 0; numb <= 50; numb++)
+	for (numb = 0; numb < 50; numb++)
 	{
 		c = a + b;
 		a = b;
 		b = c;
 
-		if (c / 2 == 0 && c < 4000000)
+		if (c % 2 == 0 && c < 4000000)
 		{
 			sum += c;
 		}
