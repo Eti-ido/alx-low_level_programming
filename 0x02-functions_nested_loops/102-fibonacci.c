@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	unsigned long numb a, b, c;
+	unsigned long numb, a, b, c;
 
 	a = 1;
 	b = 2;
