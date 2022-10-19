@@ -11,7 +11,7 @@ int main(void)
 	int numb, sum;
 
 	for (numb = 0; numb < 1024; numb++)
-		if (numb % 3 == 0 && numb % 5 == 0)
+		if (numb % 3 == 0 || numb % 5 == 0)
 		{
 			sum += numb;
 		}
