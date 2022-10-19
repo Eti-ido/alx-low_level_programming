@@ -12,7 +12,7 @@ int add(int e, int f)
 
 	sum = e + f;
 	{
-		_printchar((sum % 10) + '0');
+		_putchar((sum % 10) + '0');
 	}
 
 	return (sum);
