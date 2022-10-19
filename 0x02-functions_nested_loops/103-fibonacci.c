@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
-
+#include <stdio.h>
 /**
  * main - prints the sum of the even numbers of Fibonacci
  * Return: Nothing
