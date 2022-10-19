@@ -8,14 +8,14 @@
  */
 int main(void)
 {
-	int numb;
+	int numb, sum;
 
-	while (n < 1024)
+	for (numb = 0; numb < 1024; numb++)
+		if (numb % 3 == 0 && numb % 5 == 0)
+		{
+			sum += numb;
+		}
+	printf("%d\n", sum);
 
-	multiple1 = numb % 3;
-	multiple2 = numb % 5;
-
-	sum = (multiple1 + multiple2);
-
-	printf(sum);
+	return (0);
 }
