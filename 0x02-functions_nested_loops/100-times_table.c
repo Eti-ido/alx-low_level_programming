@@ -1,0 +1,41 @@
+#include "main.h"
+
+/**
+ * print_times_table - prints the n times table
+ * @n: The number to be computed
+ */
+void print_times_table(int n)
+{
+	int d, e, f;
+
+	if (n <= 14 && n >= 0)
+	{
+		for (d = 0; d <= n; d++)
+		{
+			for (e = 0; e <= n; e++)
+			{
+				f = d * e
+				if (d == 0)
+					_putchar(f + '0')
+				else if (f < 10 && d != 0)
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+					_putchar(' ');
+					_putchar(f + '0');
+				else if (f >= 10 && f < 100)
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+					_putchar((f / 10) + '0');
+					_putchar((f % 10) + '0');
+				else if (f >= 100)
+					_putchar(',');
+					_putchar(' ');
+					_putchar((f / 100) + '0');
+					_putchar(((f / 10) % 10) + '0');
+					_putchar((f % 10) + '0'); }
+			} _putchar('\n');
+		}
+	}
+}
