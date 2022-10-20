@@ -1,8 +1,10 @@
 #include "main.h"
+#include <stdio.h>
+#include <unistd.h>
 
 /**
  * print_numbers - prints numbers 0 to 9
- * Return: 0
+ * Return: 0-9
  */
 void print_numbers(void)
 {
