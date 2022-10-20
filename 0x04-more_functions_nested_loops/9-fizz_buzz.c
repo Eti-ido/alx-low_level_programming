@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - prints the numbers from 1 to 100
  * muliples of 3 print Fizz
  * multiples of 5 print Buzz
  * multiples of 3 and 5 print FizzBuzz
@@ -19,15 +19,22 @@ int main(void)
 	for (a = 1; a <= 100; a++)
 	{
 		if (a % 3 == 0)
+		{
 			printf("%s ", g);
+		}
 		else if (a % 5 == 0)
+		{
 			printf("%s ", d);
+		}
 		else if ((a % 3 == 0) && (a % 5 == 0))
+		{
 			printf("%s ", e);
+		}
 		else
 			printf("%d ", a);
 	}
 
-	putchar('\n');
+	printf('\n');
+
 	return (0);
 }
