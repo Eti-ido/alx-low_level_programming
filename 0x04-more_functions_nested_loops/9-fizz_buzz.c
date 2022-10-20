@@ -18,12 +18,12 @@ int main(void)
 
 	for (a = 1; a <= 100; a++)
 	{
-		if (a / 3 == 0)
-			printf("%c ", g);
-		else if (a / 5 == 0)
-			printf("%c ", d);
-		else if ((a / 3 == 0) && (a / 5 == 0))
-			printf("%c ", e);
+		if (a % 3 == 0)
+			printf("%s ", g);
+		else if (a % 5 == 0)
+			printf("%s ", d);
+		else if ((a % 3 == 0) && (a % 5 == 0))
+			printf("%s ", e);
 		else
 			printf("%d ", a);
 	}
