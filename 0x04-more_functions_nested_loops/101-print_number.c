@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <conio.h>
 
 /**
  * print_number -prints an integer
@@ -12,10 +11,10 @@ void print_number(int n)
 {
 	while (n <= 0)
 	{
-		_putchar ((n % 10) = '0')
-		n--;
+		_putchar ((n % 10) + '0');
+		n++;
 	}
-	while (n >=)
+	while (n >= 0)
 	{
 		_putchar((n % 10) + '0');
 		n++;
