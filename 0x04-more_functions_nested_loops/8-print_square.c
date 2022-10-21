@@ -1,24 +1,30 @@
 #include "main.h"
 
 /**
- * print_square - prints a square
- * @size: size of the the sqaure
- * Return: void
+ * print_square - function that checks for uppercase character.
+ * @size: the int for the paramaters of my function
+ * Return: 0
  */
 
 void print_square(int size)
 {
-	int col, row;
+	int a = 0;
+	int b = 0;
 
-		for (col = 1; col <= size; col++)
+	if (size > 0)
+	{
+		while (a < size)
 		{
-			for (row = 1; row <= 2 * size - 1; row++)
+			while (b < size)
 			{
-				if (col >= size - (col - 1) && col <= size + (col - 1))
-					_putchar('#');
-				else
-					_putchar(' ');
+				_putchar('#');
+				b++;
 			}
-			_putchar('\n');
+		b = 0;
+		a++;
+		_putchar('\n');
 		}
+	}
+	else
+		_putchar('\n');
 }
