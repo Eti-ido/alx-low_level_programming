@@ -12,29 +12,27 @@
 int main(void)
 {
 	int a;
-	char g[] = "Fizz";
-	char d[] = "Buzz";
-	char e[] = "FizzBuzz";
 
 	for (a = 1; a <= 100; a++)
 	{
 		if (a % 3 == 0)
-		{
-			printf("%s ", g);
-		}
+			printf("Fizz ");
 		else if (a % 5 == 0)
 		{
-			printf("%s ", d);
+			if (a == 100)
+			{
+				printf("Buzz ");
+				printf("\n");
+			}
+			else
+				printf("Buzz ");
 		}
 		else if ((a % 3 == 0) && (a % 5 == 0))
-		{
-			printf("%s ", e);
-		}
+			printf("FizzBuzz ");
 		else
 			printf("%d ", a);
+	a++;
 	}
 
-	printf("\n");
-
-	return (0);
+return (0);
 }
