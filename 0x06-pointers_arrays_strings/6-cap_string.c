@@ -15,7 +15,7 @@ char *cap_string(char *h)
 		{
 			if (h[i] >= 'a' && h[i] <= 'z')
 			{
-				h[i] = h[i] - 32
+				h[i] = h[i] - 32;
 				continue;
 			}
 		}
@@ -24,7 +24,7 @@ char *cap_string(char *h)
 			i++;
 			if (h[i] >= 'a' && h[i] <= 'z')
 			{
-				h[i] = h[i] - 32
+				h[i] = h[i] - 32;
 				continue;
 			}
 		}
@@ -32,8 +32,9 @@ char *cap_string(char *h)
 		{
 			if (h[i] >= 'A' && h[i] <= 'Z')
 			{
-				h[i] = h[i] + 32
+				h[i] = h[i] + 32;
 			}
 		}
-		return (0);
+	}
+	return (0);
 }
