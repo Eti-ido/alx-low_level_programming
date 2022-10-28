@@ -16,7 +16,7 @@ char *rot13(char *k)
 	{
 		for (j = 0; j <= 'z' || j <= 'Z'; j++)
 		{
-			if (k[i] == let[i])
+			if (k[i] == let[j])
 			{
 				k[i] = rot[j];
 			}
